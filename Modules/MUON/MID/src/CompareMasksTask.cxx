@@ -22,7 +22,7 @@
 #include <Framework/InputRecordWalker.h>
 #include <Framework/DataRefUtils.h>
 
-namespace o2::quality_control_modules::mft
+namespace o2::quality_control_modules::mid
 {
 
 CompareMasksTask::~CompareMasksTask()
@@ -162,4 +162,4 @@ void CompareMasksTask::reset()
   mHistogram->Reset();
 }
 
-} // namespace o2::quality_control_modules::mft
+} // namespace o2::quality_control_modules::mid
