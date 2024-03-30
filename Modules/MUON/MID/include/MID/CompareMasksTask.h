@@ -23,7 +23,7 @@ class TH1F;
 
 using namespace o2::quality_control::core;
 
-namespace o2::quality_control_modules::MID
+namespace o2::quality_control_modules::mid
 {
 
 /// \brief Example Quality Control DPL Task
@@ -49,6 +49,6 @@ class CompareMasksTask final : public TaskInterface
   TH1F* mHistogram = nullptr;
 };
 
-} // namespace o2::quality_control_modules::MID
+} // namespace o2::quality_control_modules::mid
 
 #endif // QC_MODULE_MID_MIDCOMPAREMASKSTASK_H
