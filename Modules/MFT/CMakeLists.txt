@@ -2,8 +2,7 @@
 
 add_library(O2QcMFT)
 
-target_sources(O2QcMFT PRIVATE
-               src/QcMFTDigitCheck.cxx
+target_sources(O2QcMFT PRIVATE src/QcMFTDigitCheck.cxx
                src/QcMFTDigitTask.cxx
                src/QcMFTClusterCheck.cxx
                src/QcMFTClusterTask.cxx
