@@ -4,7 +4,9 @@ add_library(O2QcMID)
 
 target_sources(
   O2QcMID
-  PRIVATE src/CompareMasksTask.cxx
+  PRIVATE 
+          src/DigitsPostProcTask.cxx 
+          src/CompareMasksTask.cxx
           src/RawQcCheck.cxx
           src/RawQcTask.cxx
           src/DigitsQcCheck.cxx
@@ -39,7 +41,9 @@ install(
 
 add_root_dictionary(
   O2QcMID
-  HEADERS include/MID/CompareMasksTask.h
+  HEADERS 
+          include/MID/DigitsPostProcTask.h
+          include/MID/CompareMasksTask.h
           include/MID/RawQcCheck.h
           include/MID/RawQcTask.h
           include/MID/DigitsQcCheck.h
